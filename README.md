@@ -1,79 +1,126 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🌱 Carbon Footprint App: Optimizing Sustainability
 
-# Getting Started
+> Empowering users to track, reduce, and optimize their carbon footprint through engaging features and personalized insights.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+---
 
-## Step 1: Start the Metro Server
+## 📌 Project Overview
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+The Carbon Footprint App is a comprehensive mobile application designed to help users track, understand, and reduce their carbon footprint. Built during my summer internship at VESIT CMPN, this project combines sustainability with technology to create meaningful impact.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+---
 
-```bash
-# using npm
-npm start
+## 🎯 Objectives
 
-# OR using Yarn
-yarn start
-```
+**Goals:**  
+- Enable users to **measure their carbon footprint** through detailed activity surveys
+- Provide **actionable insights** and **personalized recommendations** for reduction
+- Create an **engaging experience** through gamification elements
+- **Educate users** about sustainability practices and environmental impact
+- Foster a **community of environmentally conscious** individuals
 
-## Step 2: Start your Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## 🛠️ Tech Stack
 
-### For Android
+### Core Technologies:
 
-```bash
-# using npm
-npm run android
+- **Frontend:** React Native, Tailwind CSS
+- **Backend:** Python, Flask
+- **Database:** Firebase Firestore
+- **Authentication:** Firebase Auth
+- **Analytics:** Firebase Analytics
+- **Notifications:** Firebase Cloud Messaging (FCM)
+- **Design:** Figma
 
-# OR using Yarn
-yarn android
-```
+---
 
-### For iOS
+## ✨ Key Features
 
-```bash
-# using npm
-npm run ios
+- ✅ **Comprehensive Carbon Footprint Survey** for tracking monthly activities
+- ✅ **Personalized Reduction Strategies** based on user behavior
+- ✅ **Interactive Analytics Dashboard** with graphical representation
+- ✅ **Daily Environmental Quiz** to increase awareness
+- ✅ **Leaderboard & League System** for community engagement
+- ✅ **User Query Resolution System** for sustainability questions
+- ✅ **Smart Suggestions Engine** based on appliance surveys
+- ✅ **Environmental News Feed** powered by NEWS API
+- ✅ **Push Notifications** for updates and reminders
 
-# OR using Yarn
-yarn ios
-```
+---
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## 📱 App Screenshots
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+<div style="display: flex; justify-content: space-around;">
+  <img src="./readme_assets/home-screen.jpeg" alt="Home Screen" width="30%" />
+  <img src="./readme_assets/footprint.jpeg" alt="Footprint Calculator" width="30%" />
+  <img src="./readme_assets/analytics.jpeg" alt="Analytics Dashboard" width="30%" />
+</div>
+<br />
+<div style="display: flex; justify-content: space-around;">
+  <img src="./readme_assets/community.jpeg" alt="Community" width="30%" />
+  <img src="./readme_assets/profile.jpeg" alt="Profile" width="30%" />
+</div>
 
-## Step 3: Modifying your App
+---
 
-Now that you have successfully run the app, let's modify it.
+## 📝 Implementation Details
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+### Survey Module
+- Detailed monthly activity tracking across transportation, energy usage, food consumption, and waste management
+- Intelligent carbon calculation algorithms based on standard emission factors
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+### Analytics Engine
+- Custom visualization components for tracking progress over time
+- Comparative analysis with community averages and sustainability targets
 
-## Congratulations! :tada:
+### Gamification System
+- Daily environmental quiz with rotating topics
+- League progression based on footprint reduction and quiz performance
+- Community challenges and achievements
 
-You've successfully run and modified your React Native App. :partying_face:
+### Recommendation Engine
+- Flask API backend for processing survey data
+- ML-powered suggestion system based on user behavior and appliance efficiency
+- Prioritized actionable recommendations with estimated impact
 
-### Now what?
+### News & Notifications
+- Curated environmental news feed using NEWS API integration
+- Strategic notification system via FCM to maintain engagement
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+---
 
-# Troubleshooting
+## 🧪 Learning Outcomes
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+- Advanced React Native development practices including performance optimization
+- Firebase ecosystem integration for real-time applications
+- Backend API development using Flask
+- User engagement strategies through gamification
+- Data visualization techniques for complex environmental metrics
+- Push notification implementation
+- User experience design for sustainability applications
 
-# Learn More
+---
 
-To learn more about React Native, take a look at the following resources:
+## 🧬 Future Scope
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- **Expanded Tracking:** Include additional carbon footprint factors like fashion choices and digital usage
+- **Social Features:** Allow users to form sustainability groups and participate in team challenges
+- **AR Integration:** Visualize carbon impact through augmented reality experiences
+- **Carbon Offsetting:** Direct integration with verified carbon offset projects
+- **Smart Home Integration:** Connect with IoT devices for automated tracking
+- **Advanced Analytics:** Predictive models for suggesting behavioral changes
+
+---
+
+## 🙏 Acknowledgements
+
+I would like to express my sincere gratitude to:
+
+- **Yugchhaya Galphat** for her exceptional mentorship and guidance
+- The entire team at **VESIT CMPN** for providing this opportunity
+- My fellow interns for their collaboration and support
+- Open-source communities behind the technologies used in this project
+
+---
+
+# ✨ Thank You! ✨
