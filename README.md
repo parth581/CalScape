@@ -51,14 +51,14 @@ The Carbon Footprint App is a comprehensive mobile application designed to help 
 ## 📱 App Screenshots
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/parth581/CalScape/blob/main/home-screen.jpeg" />
-  <img src="./readme_assets/footprint.jpeg" alt="Footprint Calculator" width="30%" />
-  <img src="./readme_assets/analytics.jpeg" alt="Analytics Dashboard" width="30%" />
+  <img src="https://github.com/parth581/CalScape/blob/main/home-screen.jpeg" width="30%" />
+  <img src="https://github.com/parth581/CalScape/blob/main/footprint.jpeg" width="30%" />
+  <img src="https://github.com/parth581/CalScape/blob/main/analytics.jpeg" width="30%" />
 </div>
 <br />
 <div style="display: flex; justify-content: space-around;">
-  <img src="./readme_assets/community.jpeg" alt="Community" width="30%" />
-  <img src="./readme_assets/profile.jpeg" alt="Profile" width="30%" />
+  <img src="https://github.com/parth581/CalScape/blob/main/community.jpeg" alt="Community" width="30%" />
+  <img src="https://github.com/parth581/CalScape/blob/main/profile.jpeg" width="30%" />
 </div>
 
 ---
